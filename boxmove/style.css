@@ -1,0 +1,14 @@
+div,span {
+    width:80px;
+    height:80px;
+    margin:20px;
+}
+div {
+    background-color: aqua;
+    display: inline-block;
+    margin: 15px 10px 5px 0px;
+}
+span {
+    background-color:darkslategrey;
+    display: block;
+}

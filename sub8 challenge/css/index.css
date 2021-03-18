@@ -1,0 +1,365 @@
+/*   Playlist Section   */
+.playlist {
+    margin-right: 20px;
+    background-color: #FFD800;
+    padding: 10px 10px;
+    width: 400px;
+    height: 800px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.top-bar {
+    margin-top: 0;
+    padding: 18px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.top-bar i {
+    font-size: 20px;
+}
+/*-----Top bar-----*/
+.playlist-mainscreen {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0px;
+}
+.playlist-mainscreentxt1 {
+    padding-top: 10px;
+}
+.playlist-mainscreentxt2 {
+    font-size: 12px;
+    opacity: 0.7;
+}
+.playlist-mainscreen img {
+    border-radius: 50%;
+    box-shadow: 0px 12px 12px #E50065;
+    width: 85px;
+    height: 85px;
+}
+
+/*-----Playlist-Mainscreen-----*/
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 15px;
+    margin: 0px 45px;
+}
+
+.buttons-btn1 {
+    background-color: #DB0065;
+    width: 95px;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+.buttons-btn1 i {
+    color: white;
+}
+.buttons-btn2 {
+    background-color: #DB0065;
+    width: 95px;
+    height: 45px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 0px 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.buttons-btn2 i {
+    color: red;
+}
+
+/*     Main-Playlist    */
+
+.main-playlist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 40px;
+}
+.main-playlist1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 25px;
+    width: 350px;
+}
+.main-playlist1:hover {
+    border: 2px solid white;
+    border-radius: 25px;
+    box-shadow: 0px 6px 6px white;
+    cursor: pointer;
+}
+.main-playlisttxt {
+    display: flex;
+    flex-direction: column;
+    padding: 3px 85px 5px 0px;
+}
+.main-playlisti {
+    opacity: 0.5;
+    cursor: pointer;
+}
+.playlisttxt1 {
+    font-size: 16px;
+    padding: 6px 0px;
+    opacity: 0.7;
+}
+.playlisttxt2 {
+    font-size: 17px;
+    font-weight: bolder;
+}
+.main-playlist img {
+    width: 55px;
+    height: 55px;
+    border-radius: 13px;
+    border: 2px solid white;
+}
+/*     Play Remote    */
+
+.playremote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 28px;
+}
+.remotebar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 80px;
+    border-radius: 45px;
+    background-color: #DB0065;
+}
+.playremotetxt {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.playtemotetxt-1 {
+    padding: 8px 0px;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+.playtemotetxt-2 {
+    padding-bottom: 7px;
+    font-size: 18px;
+    font-weight: 800;
+}
+.playremote-btn {
+    width: 95px;
+    height: 55px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+}
+.playremote-btnp {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 3px;
+    cursor: pointer;
+}
+.pausebtn {
+    width: 6px;
+    height: 22px;
+    margin: 0 1.5px;
+    border-radius: 30px;
+    background-color: white;
+}
+/*    Animation Bar   */
+.animation-bar {
+    display: flex;
+    position: absolute;
+    justify-content: space-evenly;
+    width: 30px;
+    height: 30px;
+    top: 485px;
+    left: 63px;
+}
+
+.musicvbar {
+    display: flex;
+    width: 4px;
+    height: 14px;
+    background-color: #DB0065;
+    animation: scratchanimation 1s ease-in-out infinite;
+    animation-delay: 0.1s;
+}
+.musicvbar:nth-child(2) {
+    animation-delay: 0.3s;
+}
+.musicvbar:nth-child(3) {
+    animation-delay: 0.5s;
+}
+@keyframes scratchanimation {
+    0% { 
+        transform: scaleY(1); 
+    }
+    25% {
+        transform: scaleY(2.3);
+    }
+    50% { 
+        transform: scaleY(1.6); 
+    }
+    100% {
+        transform: scaleY(1);
+    }
+} 
+
+
+/*   Playscreen Section   */
+
+.playscreen {
+    background-color: #FFD800;
+    margin-left: 20px;
+    padding: 10px 10px;
+    width: 400px;
+    height: 800px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+
+.top-bar {
+    margin-top: 0;
+    padding: 18px 20px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+/*     Top-bar    */
+
+.center-img {
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.center-img img {
+    width: 270px;
+    height: 270px;
+    border-radius: 15px;
+    box-shadow: 0px 22px 18px #E50065;
+}
+
+.center-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 35px;
+}
+
+/*       Center section       */
+
+.playlist-mainscreentxt3 {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.playlist-mainscreentxt4 {
+    font-size: 18px;
+    font-weight: 700;
+    opacity: 0.6;
+}
+.playtime {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 45px;
+}
+.playtime-txt {
+    width: 85%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    opacity: 0.7;
+    margin-bottom: 10px;
+}
+.playtimebar {
+    width: 90%;
+    height: 4px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin-bottom: 50px;
+}
+
+.playtimebar__time_stamp {
+    height: 4px;
+    width: 70%;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.playtimebar__time_bar i {
+    font-size: 11px;
+    color: rgba(0, 0, 0, 0.9);
+    margin-left: -5px;
+}
+.play-btns {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+}
+
+/*      Playtime-bar      */
+.greybtn i {
+    color: rgba(0, 0, 0, 0.9);
+    opacity: 0.3;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.blackbtn i {
+    font-size: 35px;
+    width: 35px;
+    cursor: pointer;
+}
+
+.centerbtn1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background-color: black;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.centerbtn1 i {
+    font-size: 32px;
+    color: white;
+    padding-left: 4px;
+    cursor: pointer;
+}
+/*    End Line    */

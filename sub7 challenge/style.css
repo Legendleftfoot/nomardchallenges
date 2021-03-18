@@ -1,0 +1,25 @@
+@import "css/index.css";
+
+/*   Html,body Section   */
+
+html {
+    width: auto;
+    height: 100vh;
+    margin: 0;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    width: 400px;
+    height: 900px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+    -ms-overflow-style: none;
+}

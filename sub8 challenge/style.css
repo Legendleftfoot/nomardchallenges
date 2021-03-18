@@ -1,0 +1,23 @@
+@import "css/index.css";
+
+html,
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    -ms-overflow-style: none;
+}
+body::-webkit-scrollbar { 
+    display:none; 
+}
+
+html p {
+    margin: 0;
+}

@@ -1,0 +1,89 @@
+/*  main body   */
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+/*  stlye layout  */
+.bestcolor {
+    width: 500px;
+    height: 900px;
+    background-color: whitesmoke;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+
+.bestcolor__hedaer {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    top: 10px;
+    left: 130px;
+    font-weight: 900;
+}
+
+
+.beestcolor__cadalog1 {
+    background-color: tomato;
+    width: 150px;
+    height: 300px;
+    padding: 20px 20px;
+    border: 4px solid white;
+    position: absolute;
+    top: 125px;
+    left: 45px;
+}
+.beestcolor__cadalog2 {
+    background-color: teal;
+    width: 150px;
+    height: 300px;
+    padding: 20px 20px;
+    border: 4px solid white;
+    position: absolute;
+    top: 125px;
+    right: 45px;
+}
+.beestcolor__cadalog3 {
+    background-color: burlywood;
+    width: 150px;
+    height: 300px;
+    padding: 20px 20px;
+    border: 4px solid white;
+    position: absolute;
+    bottom: 65px;
+    left: 45px;
+}
+.beestcolor__cadalog4 {
+    background-color: thistle;
+    width: 150px;
+    height: 300px;
+    padding: 20px 20px;
+    border: 4px solid white;
+    position: absolute;
+    bottom: 65px;
+    right: 45px;
+}
+
+.bestcolor__cadlogtext {
+    text-align: left;
+    background-color: white;
+    width: 193px;
+    height: 105px;
+    position: absolute;
+    top: 18px;
+    left: -1px;
+}
+.bestcolor__cadlogtext p {
+    font-size: large;
+    font-weight: bolder;
+}
+.bestcolor__cadlogtext span {
+    font-size: smaller;
+    font-weight: bolder;
+}

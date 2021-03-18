@@ -1,0 +1,238 @@
+.topbar {
+    background-color: #FFC731;
+    display: flex;
+    padding: 25px 15px;
+    justify-content: space-between;
+    text-align: center;
+}
+.topbar__title {
+    font-size:large;
+    font-weight: 700;
+}
+.topbar i {
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+}
+
+/*    Top bar    */
+
+.serchbar {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50px;
+    right: 15px;
+}
+.serchbar-input {
+    width: 345px;
+    height: 45px;
+    padding-left: 25px;
+    border-radius: 25px;
+    outline: none;
+    color: black;
+    float: left;
+    display: flex;
+    justify-content: center;
+    border: 1px solid white;
+}
+.searchbar-btn {
+    float: right;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 9px;
+    right: 25px;
+    text-decoration: none;
+}
+.searchbar-btn i{
+    color: gray;
+    padding-bottom: 0px;
+}
+/*     Serchbar     */
+.buybook-header {
+    display: flex;
+    margin-top: 65px;
+    font-size: large;
+    font-weight: 600;
+    padding: 0 15px;
+}
+.buybook {
+    display: flex;
+    text-align: center;
+    padding: 0 15px;
+    margin-top: 15px;
+}
+.buybook img {
+    width: 110px;
+    height: 160px;
+    border-radius: 5px;
+}
+.buybook__section {
+    display: flex;
+    flex-direction: column;
+}
+.buybook__sectiontitle {
+    font-size: 20px;
+    font-weight: 500;   
+    padding-left: 25px;
+    padding-bottom: 8px;
+}
+.buybook__sectiontitle2 {
+    font-size: 15px;
+    padding-left: 8px;
+    opacity: 0.3;
+    padding-bottom: 8px;
+}
+.buybook-icons {
+    display: flex;
+    justify-content: center;
+    padding-right: 110px;
+    font-size: 10px;
+}
+.buybook-icons :nth-child(5){
+    color: grey;
+    opacity: 0.7;
+}
+.buybook-icons i {
+    color: gold;
+    padding: 5px 5px;
+}
+.buybook__button {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 22px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 20px;
+}
+.buybook-btn button {
+    font-weight: 700;
+    border-radius: 5px;
+}
+.buybook-btn {
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    width: 85px;
+    height: 25px;
+    opacity: 0.5;
+    text-align: center;
+    border: none;
+}
+.buybook-btn1 {
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 95px;
+    height: 25px;
+    opacity: 0.5;
+    text-align: center;
+    border: none;
+}
+.buybook__payment {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 7px;
+    padding-right: 40px;
+    padding-right: 25px;
+}
+.buybook-icon {
+    background-color: #FFC731;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buybook-icon i {
+    color: black;
+}
+
+.buybook__paymentbtn {
+    width: 115px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    margin-left: 15px;
+}
+/*    Buybook section    */
+.booklibrary__title {
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 25px 14px;
+}
+
+.booklibrary {
+    display: flex;
+    align-items: center;
+    overflow: scroll; width:400px; height: auto;
+    scrollbar-width: none;
+    background: url("/img/3e658eb88fb905e926079e02c39aeb5b.jpg");
+}
+.booklibrary::-webkit-scrollbar { 
+    display: none; 
+}
+.booklibrary__books {
+    padding: 0px 20px;
+}
+.booklibrary__books img {
+    width: 90px;
+    height: 110px;
+    border-radius: 5px;
+}
+.buybook-icons {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+.buybook-icons1 i {
+    font-size:xx-small;
+    color: gold;
+}
+
+/*    Booklibrary   */
+.bookinfo__title{
+    font-size: 18px;
+    font-weight: 600;
+    padding: 15px 15px;
+}
+
+.bookinfo {
+    display: flex;
+    justify-content: center;
+    padding-left: 15px;
+}
+.bookinfo__text {
+    padding-left: 10px;
+}
+.bookinfo__info {
+    font-size: 13px;
+    opacity: 0.6;
+}
+.bookinfo__name {
+    font-size: 16px;
+    font-weight: 600;
+}
+.bookinfo img {
+    width: 100px;
+    height: 120px;
+    border-radius: 5px;
+}
+.star4 :nth-child(5) {
+    color: grey;
+    opacity: 0.7;
+}
